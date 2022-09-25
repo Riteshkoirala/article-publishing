@@ -69,7 +69,7 @@ if ($result) {
             <td>'.$row["admin_name"].'</td>
             <td>'.$row["admin_email"]."</td>
             <td><a href='EditAdmin.php?id=$row[admin_id] & name=$row[admin_name] & email=$row[admin_email] & passw=$row[admin_password]'> <button  class ='edit' type='submit' name='edit' value='edit'>Edit</button></a></td>;
-            <td><a href='admindelete.php?id=$row[admin_id]'> <button  class ='delete' type='submit' name='Delete' value='Delete' onclick = 'return checkdelete()'>Delete</button></a></td>";
+            <td><a href='deleteAdmin.php?id=$row[admin_id]'> <button  class ='delete' type='submit' name='Delete' value='Delete' onclick = 'return checkdelete()'>Delete</button></a></td>";
          }
     }
   else {
