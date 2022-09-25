@@ -38,7 +38,8 @@ CREATE TABLE `Users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 INSERT INTO `Users` (`user_id`, `username`, `email`, `phonenumber`, `gender`, `password_user`, `Introduction`) VALUES
-(1,	'Ritesh Koirala',	'admin.1@gmail.com',	'23',	'Female',	'c516bf61c32974a176b135e4f1c2c2b2607cbb60',	'we');
+(1,	'Ritesh Koirala',	'admin.1@gmail.com',	'23',	'Female',	'c516bf61c32974a176b135e4f1c2c2b2607cbb60',	'we'),
+(2,	'Power Ranger',	'ritz.@gmail.com',	'9840031158',	'Male',	'484e270e248788014301176a6b9e29001430b29a',	'hi i am ritz..');
 
 DROP TABLE IF EXISTS `article`;
 CREATE TABLE `article` (
