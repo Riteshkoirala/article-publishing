@@ -1,0 +1,9 @@
+homepageurl: localhost/index.php
+
+adminuser: ritz.admin@gmail.com
+
+adminpass: ritz1257
+
+nonadminuser: ritz.@gmail.com
+
+nonadminpassword: ritz
